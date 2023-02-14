@@ -6,7 +6,7 @@ function Work() {
 
   useEffect(() => {
     setLoading(true);
-    fetch("https://api.github.com/users/foxy4096/repos?type=source")
+    fetch("https://api.github.com/users/uvacoder/repos?type=source")
       .then((res) => res.json())
       .then((data) => {
         setData(data);
